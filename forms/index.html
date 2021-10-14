@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form boiler plate</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div
+      class="container my-3 p-3"
+      style="background-color: #f4f4f4; border-radius: 10px"
+    >
+      <h1>Contact Us</h1>
+      <form method="POST">
+        <div class="form-group">
+          <label for="name" class="mb-1">Name</label>
+          <input type="text" class="form-control" id="name" />
+          <small class="text-danger form-text ml-0"
+            >Error message can be shown here</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="email" class="mb-1">Email</label>
+          <input type="email" class="form-control" id="email" />
+          <small class="text-danger form-text ml-0"
+            >Error message can be shown here</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="password" class="mb-1">Password</label>
+          <input type="password" class="form-control" id="password" />
+          <small class="text-danger form-text ml-0"
+            >Error message can be shown here</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="number" class="mb-1">Number</label>
+          <input type="number" class="form-control" id="number" />
+          <small class="text-danger form-text ml-0"
+            >Error message can be shown here</small
+          >
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+          <p
+            class="font-weight-light text-black my-2"
+            style="font-size: 0.8rem"
+          >
+            For any query drop us a mail on companymail@gmail.com
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
